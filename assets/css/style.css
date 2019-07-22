@@ -3,6 +3,7 @@
     background: #4aaaa5;
     color: #fff;
     float:left;
+    margin-left: 200px;
     padding-left: 20px;
     padding-right: 20px;
     height: 77px;
@@ -14,12 +15,13 @@
     margin-right: 250px;
     float:right;
 }
+
 .head{
     background: #fff;
     border-bottom: solid;
+    border-bottom-width: 100%;
     border-color: #cccccc;
-    margin-left:200px;
-    margin-bottom: 100px;
+    height: 77px;
 
 }
 .About{
@@ -61,6 +63,7 @@ main{
     margin: 50px 200px 100px 200px;
 }
 p{
+    padding-top:0px;
     text-align: justify;
     line-height: 25px;
 }
@@ -68,7 +71,7 @@ img{
     width: 200px;
     height: 200px;
     float: left;
-    padding:0px 20px 10px 0px;  
+    padding:20px 20px 10px 0px;  
 }
 footer{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
