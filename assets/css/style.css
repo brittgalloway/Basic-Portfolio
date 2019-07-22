@@ -85,5 +85,69 @@ footer{
     margin-top: 50px;
 }
 
-// for Portfolio
+.wrap1{
+    float:left;
+    position: relative;
+}
+.Hangman{
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 175px;
+    padding: 10px 0px 10px 0px;
+}
+.wrap2{
+    position: relative;
+    float:left;
 
+}
+.rpg{
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 175px;
+    padding: 10px 0px 10px 0px;
+}
+.wrap3{
+    position: relative;
+    float: left;
+}
+.trivia{
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 175px;
+    padding: 10px 0px 10px 0px;
+}
+.wrap4{
+    position: relative;
+    float:left;
+}
+.rutgers{
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 175px;
+    padding: 10px 0px 10px 0px;
+}
+.wrap5{
+    position: relative;
+    float:left;
+}
+.rock{
+    position: absolute;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 175px;
+    padding: 10px 0px 10px 0px;
+}
