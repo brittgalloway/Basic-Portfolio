@@ -17,11 +17,11 @@ html, body{
     height: 77px;
 }
 nav{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family:'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
     size: 18pt;
-    margin-right: 250px;
-    float:right;
+    margin-left: 475px;
+    float:left;
 }
 
 header{
@@ -30,27 +30,31 @@ header{
     border-bottom-width: 100%;
     border-color: #cccccc;
     height: 77px;
+    width: 100%;
 
 }
 .About{
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 30px;
+    /* border-right: solid; */
+    /* border-right-width: 100%; */
+    /* border-right: #666666; */
 }
 .Portfolio{
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 30px;
 }
 .contact{
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 30px;
 }
 a:link{
     font-family:  'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
-    text-decoration: none;  
+    text-decoration: none; 
 }
 a:hover, a:active{
     color:#ffce6e;
@@ -68,6 +72,7 @@ body{
 section{
     background: #fff;
     color: #4aaaa5;
+    font-size: 18pt;
     border-bottom: solid;
     border-bottom-color: #dddddd; 
     
@@ -215,6 +220,7 @@ form{
     width:960px;
     height:200px;
     padding:5px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 button{
     
