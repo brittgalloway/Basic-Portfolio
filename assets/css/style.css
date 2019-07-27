@@ -52,12 +52,14 @@ a:link{
     color:#777777;
     text-decoration: none; 
 }
-a:hover{
-    color:#ffce6e;
-}
 a:visited{
     color:#4aaaa5;
 }
+a:hover{
+    color:#ffce6e;
+}
+
+
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
