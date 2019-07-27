@@ -231,6 +231,18 @@ button{
     margin-top:20px;
     color: #fff;
     background-color: #4aaaa5;
-   
+    transition-duration: 0.4s;
+    box-shadow: none;
+}
 
+button:hover{
+    color: #4aaaa5;
+    background-color: #dddddd;
+    border-radius: 8px;
+    padding:10px 30px 10px 30px;
+    box-shadow: 0 8px 8px 0 #bbbbbb, 0 5px 5px 0 ;
+}
+button:active{
+    transform: translateY(4px);
+    box-shadow: 0 -4px 4px 0 #bbbbbb, 0 2px 2px 0;
 }
