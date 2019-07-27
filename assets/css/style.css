@@ -6,7 +6,15 @@ html, body{
     content: '';
     clear:both;
 }
+header{
+    background: #fff;
+    border-bottom: solid;
+    border-bottom-width: 100%;
+    border-color: #cccccc;
+    height: 77px;
+    width: 100%;
 
+}
 .name{
     background: #4aaaa5;
     color: #fff;
@@ -20,43 +28,31 @@ nav{
     font-family:'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
     size: 18pt;
-    margin-left: 475px;
+    margin-left: 430px;
     float:left;
+    padding-top: 30px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    padding: 0px 25px 0px 25px;
+    border-right: 1px solid #dddddd;
+  }
 
-header{
-    background: #fff;
-    border-bottom: solid;
-    border-bottom-width: 100%;
-    border-color: #cccccc;
-    height: 77px;
-    width: 100%;
+  li:last-child {
+    border-right: none;
+  }
 
-}
-.About{
-    float: left;
-    margin-left: 30px;
-    padding-top: 30px;
-    /* border-right: solid; */
-    /* border-right-width: 100%; */
-    /* border-right: #666666; */
-}
-.Portfolio{
-    float: left;
-    margin-left: 30px;
-    padding-top: 30px;
-}
-.contact{
-    float: left;
-    margin-left: 30px;
-    padding-top: 30px;
-}
 a:link{
     font-family:  'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
     text-decoration: none; 
 }
-a:hover, a:active{
+a:hover{
     color:#ffce6e;
 }
 a:visited{
@@ -67,7 +63,7 @@ h1{
 }
 body{
     background: #dddddd;
-    /* background: url(fishnets-and-hearts.png); */
+    background: url(../images/fishnets-and-hearts.png);
 }
 section{
     background: #fff;
@@ -87,7 +83,7 @@ main{
     border-bottom: solid;
     border-color: #dddddd;
     margin: 50px 200px 100px 200px;
-    margin-bottom: -20px;
+    /* margin-bottom: -20px; */
 }
 main::after{
     content: "";
@@ -116,6 +112,10 @@ footer{
     border-top-color: #4aaaa5;
     margin-top: 50px;
     height: 20px;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+
 }
 .push{
     height: 20px;
