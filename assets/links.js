@@ -9,9 +9,8 @@ $(document).ready(function() {
     "<a href='https://brittgalloway.github.io/TriviaGame/' </a>"
   );
 });
-//
-//     $(".rutgers").wrap("<a href='https://brittgalloway.github.io/unit-4-game/' </a>");
-//   });
+
+$(".rutgers").wrap("<a href='https://github.com/brittgalloway/GifTastic' </a>");
 //
 //     $(".rock").wrap("<a href='https://brittgalloway.github.io/unit-4-game/' </a>");
 //   });
