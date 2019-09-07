@@ -3,11 +3,6 @@ body {
   overflow: auto;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-}
-
 header {
   background: #fff;
   border-bottom: solid;
@@ -107,7 +102,7 @@ article {
 img {
   width: 200px;
   height: 200px;
-  float: left;
+  margin: auto;
   padding: 20px 0px 0px 0px;
 }
 footer {
@@ -131,12 +126,15 @@ footer {
 /* <!----------PORTFOLIO----------------> */
 .box-set {
   width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-top: 20px;
 }
 
 .wrap1 {
-  float: left;
   position: relative;
-  padding-right: 20px;
 }
 .Hangman {
   position: absolute;
@@ -149,7 +147,6 @@ footer {
 }
 .wrap2 {
   position: relative;
-  float: left;
 }
 .rpg {
   position: absolute;
@@ -162,8 +159,6 @@ footer {
 }
 .wrap3 {
   position: relative;
-  float: left;
-  padding-right: 20px;
 }
 .trivia {
   position: absolute;
@@ -176,7 +171,6 @@ footer {
 }
 .wrap4 {
   position: relative;
-  float: left;
 }
 .rutgers {
   position: absolute;
@@ -189,7 +183,6 @@ footer {
 }
 .wrap5 {
   position: relative;
-  float: left;
 }
 .rock {
   position: absolute;
@@ -364,7 +357,14 @@ button:active {
     margin-left: auto;
     margin-right: auto;
   }
-  .box-set,
+  .box-set {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 20px;
+  }
   form {
     width: 100%;
   }
