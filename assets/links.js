@@ -10,7 +10,7 @@ $(document).ready(function() {
   );
 
   $(".rutgers").wrap(
-    "<a href='https://github.com/brittgalloway/GifTastic' </a>"
+    "<a href='https://brittgalloway.github.io/GifTastic' </a>"
   );
 
   $(".rock").wrap(
