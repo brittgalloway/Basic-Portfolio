@@ -8,7 +8,7 @@ $(document).ready(function() {
   const age = moment()
     .year(1992)
     .fromNow(true);
-  $("#age").html("<h6>Age: " + age + " old<h6>");
+  $("#age").html("<h6 class='flow-text'>Age: " + age + " old<h6>");
 
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $(".Hangman").wrap(
