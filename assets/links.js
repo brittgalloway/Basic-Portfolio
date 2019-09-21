@@ -1,5 +1,8 @@
 $(document).ready(function() {
   // INDEX SCRIPT----------------------------------------------------------------
+  $("#about").wrap('<a href="about_materialize.html"></a>');
+  $("#portfolio").wrap("<a href='portfolio_materialize.html' </a>");
+  $("#contact").wrap("<a href='contact_materialize.html' </a>");
 
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $(".Hangman").wrap(
