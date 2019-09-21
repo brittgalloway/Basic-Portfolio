@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- MATERIALIZE Compiled and minified CSS -->
+    <!-- JQUERY ------------------------------------------------------------ -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- MATERIALIZE Compiled and minified CSS --------------------------------->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
-    <!-- MATERIALIZE Compiled and minified JavaScript -->
+    <!-- MATERIALIZE Compiled and minified JavaScript ----------------------------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- CSS FILE---------------------------------------------------------------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Brittney L. Galloway</title>
   </head>
   <body>
@@ -29,42 +37,44 @@
         </div>
       </nav>
     </header>
-    <main>
-      <h1>Full Stack Web Developer</h1>
-      <div id="wrap" class="row">
-        <div class="col s12 m6 l4">
-          <span id="about">About Me</span>
-          <img
-            src="assets/images/2-18-2018.jpg"
-            alt=""
-            class="circle responsive-img"
-          />
+    <div class="container">
+      <main>
+        <h1>Full Stack Web Developer</h1>
+        <div class="row">
+          <div id="wrapper1" class="col s12 m6 l4">
+            <span id="about"><strong>About Me</strong></span>
+            <img
+              src="assets/images/2-18-2018.jpg"
+              class="circle responsive-img w"
+            />
+          </div>
+          <div id="wrapper2" class="col s12 m6 l4">
+            <span id="portfolio">Portfolio</span>
+            <img
+              src="assets/images/aurora-borealis-5.png"
+              alt=""
+              class="circle responsive-img"
+            />
+          </div>
+          <div id="wrapper3" class="col s12 m6 l4">
+            <span id="contact">Contact</span>
+            <img
+              src="assets/images/night.jpg"
+              alt=""
+              class="circle responsive-img"
+            />
+          </div>
         </div>
-        <div class="col s12 m6 l4">
-          <span id="portfolio">Portfolio</span>
-          <img
-            src="assets/images/aurora-borealis-7.png"
-            alt=""
-            class="circle responsive-img"
-          />
-        </div>
-        <div class="col s12 m6 l4">
-          <span id="contact">Contact</span>
-          <img
-            src="assets/images/night.jpg"
-            alt=""
-            class="circle responsive-img"
-          />
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
     <footer class="page-footer">
       <div class="footer-copyright">
         <div class="container">
-          © 2019 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          © 2019 Brittney Galloway
         </div>
       </div>
     </footer>
+    <!-- SCIRPT JS FILE ------------------------------------------------------------------------>
+    <script src="assets/links.js"></script>
   </body>
 </html>

@@ -1,128 +1,52 @@
-html,
-body {
-  overflow: auto;
+#wrapper1 {
+  position: relative;
 }
-
-header {
-  background: #fff;
-  border-bottom: solid;
-  border-bottom-width: 100%;
-  border-color: #cccccc;
-  height: 77px;
-  width: 100%;
-}
-.name {
-  background: #4aaaa5;
-  color: #fff;
-  float: left;
-  margin-left: 200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 77px;
-}
-nav {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777;
-  size: 18pt;
-  float: right;
-  padding-top: 30px;
-  margin-right: 100px;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  display: inline;
-  padding: 0px 25px 0px 25px;
-  border-right: 1px solid #dddddd;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-a:link {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777;
-  text-decoration: none;
-}
-a:visited {
-  color: #4aaaa5;
-}
-a:hover {
-  color: #ffce6e;
-}
-
-h1 {
-  font-family: "Georgia", Times, Times New Roman, serif;
-}
-body {
-  background: #dddddd;
-  background: url(../images/fishnets-and-hearts.png);
-  margin: 0px;
-}
-section {
-  background: #fff;
-  color: #4aaaa5;
-  font-size: 18pt;
-  border-bottom: solid;
-  border-bottom-color: #dddddd;
-}
-main {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777;
-  width: 960px;
-  height: 100%;
-  background: #ffffff;
-  padding: 10px 50px 50px 50px;
-  border-bottom: solid;
-  border-color: #4aaaa5;
-  border-radius: 30px;
-  margin: 50px 200px 100px 200px;
-}
-main::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-article {
-  padding-top: 20px;
-  padding-left: 20px;
-  text-align: justify;
-  line-height: 25px;
-}
-#myPic {
-  width: 200px;
-  height: 200px;
-  float: left;
-  padding: 20px 20px 0px 0px;
-}
-img {
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  padding: 20px 0px 0px 0px;
-}
-footer {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+#about {
+  position: absolute;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  background: #666666;
-  color: #fff;
-  border-top: solid 8px;
-  border-top-color: #4aaaa5;
-  margin-top: 50px;
-  height: 20px;
-  position: fixed;
-  bottom: 0px;
+  font-size: 36px;
+  color: #ffffff;
   width: 100%;
+  margin-top: 37%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.push {
-  height: 20px;
+#wrapper2 {
+  position: relative;
 }
+#portfolio {
+  position: absolute;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#wrapper3 {
+  position: relative;
+}
+#contact {
+  position: absolute;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 /* <!----------PORTFOLIO----------------> */
 .box-set {
   width: 500px;
