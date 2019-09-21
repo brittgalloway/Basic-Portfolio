@@ -5,9 +5,12 @@ $(document).ready(function() {
   $("#contact").wrap("<a href='contact_materialize.html' </a>");
 
   // ABOUT SCRIPT -----------------------------------------------------------
-  const age = moment("19920117", "YYYYMMDD").fromNow();
+  const age = moment()
+    .year(1992)
+    .fromNow(true);
+  $("#age").html("<h6>Age: " + age + " old<h6>");
+
   // PORTFOLIO SCRIPT -----------------------------------------------------------
-  $("#age").html("<h6>Age: " + age);
   $(".Hangman").wrap(
     "<a href='https://brittgalloway.github.io/WordGuessGame/' </a>"
   );
