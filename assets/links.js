@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  // INDEX SCRIPT----------------------------------------------------------------
+
+  // PORTFOLIO SCRIPT -----------------------------------------------------------
   $(".Hangman").wrap(
     "<a href='https://brittgalloway.github.io/WordGuessGame/' </a>"
   );
