@@ -3,16 +3,18 @@
   height: 250px;
 }
 #wrapper1 {
-  position: relative;
-  animation: myOrbit1 30s linear infinite;
-  width: 25%;
+  position: absolute;
+  left: 550px;
+  top: 305px;
+  animation: myOrbit1 480s linear infinite;
+  width: 17%;
 }
 @keyframes myOrbit1 {
   from {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
+    transform: rotate(0deg) translateX(-250px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    transform: rotate(360deg) translateX(-250px) rotate(-360deg);
   }
 }
 #about {
@@ -26,17 +28,18 @@
   margin-right: auto;
 }
 #wrapper2 {
-  position: relative;
-
-  animation: myOrbit2 15s linear infinite;
-  width: 25%;
+  position: absolute;
+  left: 550px;
+  top: 305px;
+  animation: myOrbit2 25s linear infinite;
+  width: 17%;
 }
 @keyframes myOrbit2 {
   from {
-    transform: rotate(0deg) translateX(20px) rotate(0deg);
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(20px) rotate(-360deg);
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
   }
 }
 #portfolio {
@@ -50,16 +53,18 @@
   margin-right: auto;
 }
 #wrapper3 {
-  position: relative;
-  width: 25%;
-  animation: myOrbit3 30s linear infinite;
+  position: absolute;
+  right: 550px;
+  top: 305px;
+  width: 17%;
+  animation: myOrbit3 480s linear infinite;
 }
 @keyframes myOrbit3 {
   from {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
+    transform: rotate(0deg) translateX(290px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    transform: rotate(360deg) translateX(290px) rotate(-360deg);
   }
 }
 #contact {
