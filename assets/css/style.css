@@ -1,20 +1,26 @@
+h1,
+.brand-logo,
+li,
+footer {
+  font-family: "Gruppo", cursive;
+}
+span {
+  font-family: "Source Code Pro", monospace;
+  /* font-family: "Exo", sans-serif; */
+}
 #myPic {
   border-radius: 12px;
   height: 250px;
 }
 #wrapper1 {
-  position: absolute;
-  left: 550px;
-  top: 305px;
-  animation: myOrbit1 480s linear infinite;
-  width: 17%;
+  animation: myOrbit1 15s linear infinite;
 }
 @keyframes myOrbit1 {
   from {
-    transform: rotate(0deg) translateX(-250px) rotate(0deg);
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(-250px) rotate(-360deg);
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
   }
 }
 #about {
@@ -28,11 +34,7 @@
   margin-right: auto;
 }
 #wrapper2 {
-  position: absolute;
-  left: 550px;
-  top: 305px;
   animation: myOrbit2 25s linear infinite;
-  width: 17%;
 }
 @keyframes myOrbit2 {
   from {
@@ -53,18 +55,14 @@
   margin-right: auto;
 }
 #wrapper3 {
-  position: absolute;
-  right: 550px;
-  top: 305px;
-  width: 17%;
-  animation: myOrbit3 480s linear infinite;
+  animation: myOrbit3 15s linear infinite;
 }
 @keyframes myOrbit3 {
   from {
-    transform: rotate(0deg) translateX(290px) rotate(0deg);
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translateX(290px) rotate(-360deg);
+    transform: rotate(360deg) translateX(5px) rotate(-360deg);
   }
 }
 #contact {
@@ -160,6 +158,12 @@ main {
 }
 
 /* <!-----------CONTACT---------------> */
+.card {
+  width: 600px;
+}
+h2 {
+  margin-top: 20px;
+}
 h3 {
   display: inline-block;
   padding: 10px;
