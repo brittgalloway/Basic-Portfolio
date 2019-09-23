@@ -4,9 +4,9 @@ li,
 footer {
   font-family: "Gruppo", cursive;
 }
-span {
-  font-family: "Source Code Pro", monospace;
-  /* font-family: "Exo", sans-serif; */
+.nav-wrapper {
+  width: 70%;
+  margin: 0 auto;
 }
 #myPic {
   border-radius: 12px;
@@ -27,7 +27,9 @@ span {
   position: absolute;
   text-align: center;
   font-size: 36px;
-  color: #ffffff;
+  color: #fff3e0;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #004d40;
   width: 100%;
   margin-top: 37%;
   margin-left: auto;
@@ -48,7 +50,10 @@ span {
   position: absolute;
   text-align: center;
   font-size: 36px;
-  color: #ffffff;
+  color: #fff3e0;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #004d40;
+
   width: 100%;
   margin-top: 37%;
   margin-left: auto;
@@ -69,7 +74,9 @@ span {
   position: absolute;
   text-align: center;
   font-size: 36px;
-  color: #ffffff;
+  color: #fff3e0;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #004d40;
   width: 100%;
   margin-top: 37%;
   margin-left: auto;
@@ -85,7 +92,14 @@ main {
   flex: 1 0 auto;
   padding-bottom: 50px;
 }
-
+/* -----------ABOUT ME--------------------- */
+article,
+h6 {
+  font-family: "Catamaran", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 20px;
+}
 /* <!----------PORTFOLIO----------------> */
 .box-set {
   width: 500px;
@@ -158,13 +172,20 @@ main {
 }
 
 /* <!-----------CONTACT---------------> */
+.card,
+.horizontal {
+  align-items: center;
+}
 .card {
-  width: 600px;
+  width: 100%;
 }
-h2 {
-  margin-top: 20px;
-}
+
 h3 {
   display: inline-block;
   padding: 10px;
+}
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #009688;
 }
