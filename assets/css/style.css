@@ -101,74 +101,113 @@ h6 {
   margin-bottom: 20px;
 }
 /* <!----------PORTFOLIO----------------> */
-.box-set {
-  width: 500px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15px;
-  grid-auto-rows: minmax(100px, auto);
-  padding-top: 20px;
-}
 
-.wrap1 {
+#space {
   position: relative;
+  animation: space 25s linear infinite;
 }
-.Hangman {
+@keyframes space {
+  from {
+    transform: rotate(0deg) translateX(7px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px) rotate(-360deg);
+  }
+}
+.space {
   position: absolute;
   text-align: center;
+  font-size: 36px;
+  color: #fff3e0;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #004d40;
 
-  color: #ffffff;
-  width: 200px;
-  margin-top: 175px;
-  padding: 10px 0px 10px 0px;
+  width: 100%;
+  margin-top: 37%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.wrap2 {
+#collector {
   position: relative;
+
+  animation: collect 15s linear infinite;
+  width: 80%;
+  margin: auto;
 }
-.rpg {
+@keyframes collect {
+  from {
+    transform: rotate(0deg) translateX(7px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px) rotate(-360deg);
+  }
+}
+.collector {
   position: absolute;
   text-align: center;
+  font-size: 36px;
+  color: #00695c;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #fff3e0;
 
-  color: #ffffff;
-  width: 200px;
-  margin-top: 175px;
-  padding: 10px 0px 10px 0px;
+  width: 100%;
+  margin-top: 17%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.wrap3 {
+#trivia {
   position: relative;
+  animation: trivia 15s linear infinite;
+  width: 80%;
+  margin: auto;
+}
+@keyframes trivia {
+  from {
+    transform: rotate(0deg) translateX(7px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px) rotate(-360deg);
+  }
 }
 .trivia {
   position: absolute;
   text-align: center;
+  font-size: 36px;
+  color: #00695c;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #fff3e0;
 
-  color: #ffffff;
-  width: 200px;
-  margin-top: 175px;
-  padding: 10px 0px 10px 0px;
+  width: 100%;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.wrap4 {
+#gifs {
   position: relative;
+  animation: gifs 15s linear infinite;
+  width: 80%;
+  margin: auto;
 }
-.rutgers {
+@keyframes gifs {
+  from {
+    transform: rotate(0deg) translateX(7px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px) rotate(-360deg);
+  }
+}
+.gifs {
   position: absolute;
   text-align: center;
-
-  color: #ffffff;
-  width: 200px;
-  margin-top: 175px;
-  padding: 10px 0px 10px 0px;
-}
-.wrap5 {
-  position: relative;
-}
-.rock {
-  position: absolute;
-  text-align: center;
-
-  color: #ffffff;
-  width: 200px;
-  margin-top: 175px;
-  padding: 10px 0px 10px 0px;
+  font-size: 36px;
+  color: #00695c;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #fff3e0;
+  /* text-shadow: 0 0 0.15em #fff; */
+  width: 100%;
+  margin-top: 17%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* <!-----------CONTACT---------------> */
