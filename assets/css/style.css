@@ -94,7 +94,8 @@ main {
 }
 /* -----------ABOUT ME--------------------- */
 article,
-h6 {
+h6,
+p {
   font-family: "Catamaran", sans-serif;
   text-align: justify;
   text-justify: inter-word;
