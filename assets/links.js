@@ -9,7 +9,7 @@ $(document).ready(function() {
     .year(1992)
     .fromNow(true);
   $("#age").html(
-    "<h6 class='flow-text teal-text text-darken-3'>Age: " + age + " old<h6>"
+    "<li class='flow-text teal-text text-darken-3'>Age: " + age + " old<li>"
   );
 
   // PORTFOLIO SCRIPT -----------------------------------------------------------
