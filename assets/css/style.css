@@ -1,12 +1,16 @@
 h1,
 .brand-logo,
-li,
+nav li,
 footer {
   font-family: "Gruppo", cursive;
+  line-height: 54px;
 }
 .nav-wrapper {
   width: 70%;
   margin: 0 auto;
+}
+a {
+  color: #00bfa5;
 }
 #myPic {
   border-radius: 12px;
@@ -93,16 +97,22 @@ main {
   padding-bottom: 50px;
 }
 /* -----------ABOUT ME--------------------- */
-article,
+li,
 h6,
 p {
   font-family: "Catamaran", sans-serif;
+  font-size: 14pt;
   text-align: justify;
   text-justify: inter-word;
-  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 10px;
 }
 /* <!----------PORTFOLIO----------------> */
 
+.card-panel {
+  padding: 20px;
+}
 #space {
   position: relative;
   animation: space 25s linear infinite;
