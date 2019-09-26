@@ -41,6 +41,7 @@ a {
 }
 #wrapper2 {
   animation: myOrbit2 25s linear infinite;
+  padding: 10px;
 }
 @keyframes myOrbit2 {
   from {
@@ -57,7 +58,6 @@ a {
   color: #fff3e0;
   font-family: "Source Code Pro", monospace;
   text-shadow: 2px 2px #004d40;
-
   width: 100%;
   margin-top: 37%;
   margin-left: auto;
