@@ -12,6 +12,7 @@ $(document).ready(function() {
     "<li class='flow-text teal-text text-darken-3'>Age: " + age + " old<li>"
   );
 
+  $(".sidenav").sidenav();
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $("#space").wrap("<a href='spaceChasers.html' </a>");
 

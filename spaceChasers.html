@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css?family=Exo:900|Gruppo|Source+Code+Pro:700&display=swap"
       rel="stylesheet"
     />
+    <!-- GOOGLE ICONS------------------------------------------------------------ -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- MOMENT--------------------------------------------------------------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 
@@ -39,7 +44,12 @@
     <header>
       <nav class=" teal">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">Brittney Galloway</a>
+          <a href="index.html" class="brand-logo hide-on-small-only"
+            >Brittney Galloway</a
+          >
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="about_materialize.html">About</a></li>
             <li><a href="portfolio_materialize.html">Portfolio</a></li>
@@ -47,6 +57,11 @@
           </ul>
         </div>
       </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="about_materialize.html">About</a></li>
+        <li><a href="portfolio_materialize.html">Portfolio</a></li>
+        <li><a href="contact_materialize.html">Contact</a></li>
+      </ul>
     </header>
     <main class=" red lighten-5">
       <div class="container">
