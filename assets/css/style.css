@@ -1,4 +1,4 @@
-@keyframes slideDown {
+/* @keyframes slideDown {
   from {
     margin-top: 0%;
   }
@@ -7,7 +7,7 @@
   from {
     margin-top: -10%;
   }
-}
+} */
 
 h1,
 .brand-logo,
@@ -237,7 +237,9 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-
+#projectImg {
+  margin-top: 7px;
+}
 /* <!-----------CONTACT---------------> */
 .card,
 .horizontal {
