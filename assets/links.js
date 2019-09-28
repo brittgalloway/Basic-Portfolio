@@ -11,18 +11,14 @@ $(document).ready(function() {
   $("#age").html(
     "<li class='flow-text teal-text text-darken-3'>Age: " + age + " old<li>"
   );
-
+  // FOR SIDE NAV----------------------------------------------------------------
   $(".sidenav").sidenav();
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $("#space").wrap("<a href='spaceChasers.html' </a>");
 
-  $("#collector").wrap(
-    "<a href='https://brittgalloway.github.io/unit-4-game/' </a>"
-  );
+  $("#collector").wrap("<a href='crystalCollect.html' </a>");
 
-  $("#trivia").wrap(
-    "<a href='https://brittgalloway.github.io/TriviaGame/' </a>"
-  );
+  $("#trivia").wrap("<a href='triviaGame.html' </a>");
 
-  $("#gifs").wrap("<a href='https://brittgalloway.github.io/GifTastic' </a>");
+  $("#gifs").wrap("<a href='gifTastic.html' </a>");
 });
