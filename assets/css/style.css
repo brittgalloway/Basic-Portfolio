@@ -1,11 +1,14 @@
-/* @keyframes slideDown {
-  from {
-    margin-top: 0%;
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
-@keyframes slideFrom {
+@keyframes slideDown {
   from {
-    margin-top: -10%;
+    margin-top: 0;
   }
 } */
 
@@ -33,7 +36,7 @@ a {
   height: 250px;
 }
 #wrapper1 {
-  animation-name: slideFrom 3s ease-in-out;
+  animation-name: fadeIn 10s ease-in-out;
 
   animation: myOrbit1 15s linear infinite;
 }
@@ -58,8 +61,8 @@ a {
   margin-right: auto;
 }
 #wrapper2 {
-  animation-duration: 3s;
-  animation-name: slideFrom;
+  animation-duration: 10s;
+  animation-name: fadeIn;
   animation-timing-function: ease-in-out;
   animation: myOrbit2 25s linear infinite;
   padding: 10px;
@@ -86,7 +89,7 @@ a {
 }
 #wrapper3 {
   animation-duration: 3s;
-  animation-name: slideFrom;
+  animation-name: fadeIn;
   animation-timing-function: ease-in-out;
   animation: myOrbit3 15s linear infinite;
 }
