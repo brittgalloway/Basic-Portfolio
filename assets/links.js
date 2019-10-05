@@ -21,4 +21,7 @@ $(document).ready(function() {
   $("#trivia").wrap("<a href='triviaGame.html' </a>");
 
   $("#gifs").wrap("<a href='gifTastic.html' </a>");
+  $("#liriApp").wrap(
+    "<a href='https://github.com/brittgalloway/liri-node-app' </a>"
+  );
 });
