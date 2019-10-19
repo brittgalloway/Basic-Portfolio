@@ -24,4 +24,7 @@ $(document).ready(function() {
   $("#liriApp").wrap(
     "<a href='https://github.com/brittgalloway/liri-node-app' </a>"
   );
+  $("#bamazonApp").wrap(
+    "<a href='https://github.com/brittgalloway/bamazon' </a>"
+  );
 });
