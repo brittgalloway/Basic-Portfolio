@@ -27,4 +27,7 @@ $(document).ready(function() {
   $("#bamazonApp").wrap(
     "<a href='https://github.com/brittgalloway/bamazon' </a>"
   );
+  $("#friendFinder").wrap(
+    "<a href='https://friend-finder10-26.herokuapp.com/' </a>"
+  );
 });

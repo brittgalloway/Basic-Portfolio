@@ -290,6 +290,31 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+#friendFinder {
+  position: relative;
+  animation: friend 20s linear infinite;
+  width: 80%;
+  margin: auto;
+}
+@keyframes friend {
+  from {
+    transform: rotate(0deg) translateX(5px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg) translateX(5px) rotate(360deg);
+  }
+}
+.friendFinder {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px 2px #004d40;
+  font-family: "Source Code Pro", monospace;
+  width: 100%;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #projectImg {
   margin-top: 7px;
 }
