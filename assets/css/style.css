@@ -164,6 +164,30 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+#swiftly{
+  position: relative;
+  animation: swiftly25s linear infinite;
+}
+@keyframes swiftly{
+  from {
+    transform: rotate(0deg) translateX(7px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(7px) rotate(-360deg);
+  }
+}
+.swiftly{
+  position: absolute;
+  text-align: center;
+  font-size: 36px;
+  color: #fff3e0;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 2px 2px #004d40;
+  width: 100%;
+  margin-top: 37%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #collector {
   position: relative;
 
