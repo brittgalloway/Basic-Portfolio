@@ -12,7 +12,7 @@
   }
 } */
 
-h1,
+h1, h3,
 .brand-logo,
 nav li,
 footer {
@@ -32,22 +32,14 @@ a {
   color: #00bfa5;
 }
 #myPic {
-  border-radius: 12px;
+
   height: 250px;
 }
 #wrapper1 {
-  animation-name: fadeIn 10s ease-in-out;
+  position: relative;
+  padding: 10px;
+}
 
-  animation: myOrbit1 15s linear infinite;
-}
-@keyframes myOrbit1 {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(5px) rotate(-360deg);
-  }
-}
 #about {
   position: absolute;
   text-align: center;
@@ -61,20 +53,10 @@ a {
   margin-right: auto;
 }
 #wrapper2 {
-  animation-duration: 10s;
-  animation-name: fadeIn;
-  animation-timing-function: ease-in-out;
-  animation: myOrbit2 25s linear infinite;
+  position: relative;
   padding: 10px;
 }
-@keyframes myOrbit2 {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(5px) rotate(-360deg);
-  }
-}
+
 #portfolio {
   position: absolute;
   text-align: center;
@@ -88,19 +70,10 @@ a {
   margin-right: auto;
 }
 #wrapper3 {
-  animation-duration: 3s;
-  animation-name: fadeIn;
-  animation-timing-function: ease-in-out;
-  animation: myOrbit3 15s linear infinite;
+  position: relative;
+  padding: 10px;
 }
-@keyframes myOrbit3 {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(5px) rotate(-360deg);
-  }
-}
+
 #contact {
   position: absolute;
   text-align: center;
@@ -113,11 +86,17 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+img{
+  border: solid;
+  border-color:#00bfa5;
+  border-radius: 20px;
+}
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
+
 
 main {
   flex: 1 0 auto;
@@ -142,16 +121,8 @@ li {
 }
 #space {
   position: relative;
-  animation: space 25s linear infinite;
 }
-@keyframes space {
-  from {
-    transform: rotate(0deg) translateX(7px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(7px) rotate(-360deg);
-  }
-}
+
 .space {
   position: absolute;
   text-align: center;
@@ -166,16 +137,8 @@ li {
 }
 #swiftly{
   position: relative;
-  animation: swiftly25s linear infinite;
 }
-@keyframes swiftly{
-  from {
-    transform: rotate(0deg) translateX(7px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(7px) rotate(-360deg);
-  }
-}
+
 .swiftly{
   position: absolute;
   text-align: center;
@@ -190,19 +153,10 @@ li {
 }
 #collector {
   position: relative;
-
-  animation: collect 15s linear infinite;
   width: 80%;
   margin: auto;
 }
-@keyframes collect {
-  from {
-    transform: rotate(0deg) translateX(7px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(7px) rotate(-360deg);
-  }
-}
+
 .collector {
   position: absolute;
   text-align: center;
@@ -216,18 +170,10 @@ li {
 }
 #trivia {
   position: relative;
-  animation: trivia 15s linear infinite;
   width: 80%;
   margin: auto;
 }
-@keyframes trivia {
-  from {
-    transform: rotate(0deg) translateX(7px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(7px) rotate(-360deg);
-  }
-}
+
 .trivia {
   position: absolute;
   text-align: center;
@@ -241,18 +187,10 @@ li {
 }
 #gifs {
   position: relative;
-  animation: gifs 15s linear infinite;
   width: 80%;
   margin: auto;
 }
-@keyframes gifs {
-  from {
-    transform: rotate(0deg) translateX(7px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translateX(7px) rotate(-360deg);
-  }
-}
+
 .gifs {
   position: absolute;
   text-align: center;
@@ -266,18 +204,10 @@ li {
 }
 #liriApp {
   position: relative;
-  animation: liri 20s linear infinite;
   width: 80%;
   margin: auto;
 }
-@keyframes liri {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg) translateX(5px) rotate(360deg);
-  }
-}
+
 .liri {
   position: absolute;
   text-align: center;
@@ -291,18 +221,11 @@ li {
 }
 #bamazonApp {
   position: relative;
-  animation: bamazon 20s linear infinite;
+
   width: 80%;
   margin: auto;
 }
-@keyframes bamazon {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg) translateX(5px) rotate(360deg);
-  }
-}
+
 .bamazon {
   position: absolute;
   text-align: center;
@@ -316,18 +239,10 @@ li {
 }
 #friendFinder {
   position: relative;
-  animation: friend 20s linear infinite;
   width: 80%;
   margin: auto;
 }
-@keyframes friend {
-  from {
-    transform: rotate(0deg) translateX(5px) rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg) translateX(5px) rotate(360deg);
-  }
-}
+
 .friendFinder {
   position: absolute;
   text-align: center;
@@ -349,6 +264,7 @@ li {
 }
 .card {
   width: 100%;
+  
 }
 
 h3 {
@@ -359,4 +275,11 @@ h3 {
   .card-action
   a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #009688;
+}
+.card .card-image img{
+  border: none;
+}
+li img{
+  border: none;
+  border-radius: 10;
 }
