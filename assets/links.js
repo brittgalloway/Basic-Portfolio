@@ -15,6 +15,8 @@ $(document).ready(function() {
   $(".sidenav").sidenav();
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $("#space").wrap("<a href='spaceChasers.html' </a>");
+  
+  $("#swiftly").wrap("<a href='swiftly.html' </a>");
 
   $("#collector").wrap("<a href='crystalCollect.html' </a>");
 
