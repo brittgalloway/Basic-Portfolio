@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- JQUERY ------------------------------------------------------------ -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- GOOGLE FONTS---------------------------------------------------------- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo:900|Gruppo|Source+Code+Pro:700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MOMENT--------------------------------------------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+    <!-- MATERIALIZE Compiled and minified CSS --------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- MATERIALIZE Compiled and minified JavaScript ----------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- CSS FILE---------------------------------------------------------------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Friend Finder Info</title>
+  </head>
+  <body>
+    <header>
+      <nav class=" teal">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo hide-on-small-only"
+            >Brittney Galloway</a
+          >
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="about_materialize.html">About</a></li>
+            <li><a href="portfolio_materialize.html">Portfolio</a></li>
+            <li><a href="contact_materialize.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav red lighten-5 " id="mobile-demo">
+        <li><a class="teal-text text-lighten-2" href="index.html">Home</a></li>
+        <li>
+          <a class="teal-text text-lighten-2" href="about_materialize.html"
+            >About</a
+          >
+        </li>
+        <li>
+          <a class="teal-text text-lighten-2" href="portfolio_materialize.html"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a class="teal-text text-lighten-2" href="contact_materialize.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class=" grey  lighten-5">
+      <div class="container">
+        <div class="row">
+          <h1 class="teal-text text-lighten-2 center-align">
+            Friend Finder
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l6 ">
+            <div class="card-panel grey  lighten-5">
+              <span class="teal-text "
+                ><ul>
+                  <li>
+                    <a href="https://github.com/brittgalloway/FriendFinder"
+                      >Github</a
+                    >
+                    <a
+                      class="hide-on-small-only"
+                      href="https://github.com/brittgalloway/FriendFinder"
+                      >: <br />https://github.com/brittgalloway/FriendFinder</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://friend-finder10-26.herokuapp.com/"
+                      >Live App</a
+                    >
+                    <a
+                      class="hide-on-small-only"
+                      href="https://friend-finder10-26.herokuapp.com/"
+                      >: <br />https://friend-finder10-26.herokuapp.com/</a
+                    >
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m6 l5">
+            <img
+              id="projectImg"
+              class="z-depth-1 responsive-img"
+              src="assets\images\friendFinder.PNG"
+              alt="Crystal Collector Screenshot"
+              width="300px"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12 teal-text text-darken-3 ">
+            <li>
+             FRIEND FINDER is a full-stack application that finds compatibility between users. The app works by taking user input and comparing it against data stored on the files in our server. Then a response is sent back to the user based on their inpu
+            </li>
+
+            <li>
+              Tools: Javascript, HTML, Node.js,
+              Express,
+              Bulma UI
+            </li>
+            <li>
+                FUTURE DEVELOPEMENTS:
+                *Adding error handling 
+                *Handling unanswered questions/verify the correct type of input 
+                *Letting the user know which numbers are Strongly aggree/disagree
+            </li>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer grey lighten-5">
+        <div class="footer-copyright">
+          <div class="container center-align teal-text text-lighten-2 flow-text">
+            © 2019 Brittney Galloway
+          </div>
+        </div>
+      </footer>
+    <!-- SCIRPT JS FILE ------------------------------------------------------------------------>
+    <script src="assets/links.js"></script>
+  </body>
+</html>
