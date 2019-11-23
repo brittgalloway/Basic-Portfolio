@@ -31,15 +31,41 @@
     <title>Crystal Game Info</title>
   </head>
   <body>
-    <header>
-      <nav class=" teal">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo center truncate"
-            >Brittney Galloway</a
-          >
-        </div>
-      </nav>
-    </header>
+      <header>
+          <nav class=" teal">
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo hide-on-small-only"
+                >Brittney Galloway</a
+              >
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                ><i class="material-icons">menu</i></a
+              >
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="about_materialize.html">About</a></li>
+                <li><a href="portfolio_materialize.html">Portfolio</a></li>
+                <li><a href="contact_materialize.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <ul class="sidenav red lighten-5 " id="mobile-demo">
+            <li><a class="teal-text text-lighten-2" href="index.html">Home</a></li>
+            <li>
+              <a class="teal-text text-lighten-2" href="about_materialize.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="teal-text text-lighten-2" href="portfolio_materialize.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="teal-text text-lighten-2" href="contact_materialize.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </header>
     <main class=" grey lighten-5">
       <div class="container">
         <div class="row">
@@ -104,13 +130,13 @@
         </div>
       </div>
     </main>
-    <footer class="page-footer teal lighten-1">
-      <div class="footer-copyright">
-        <div class="container center-align">
-          © 2019 Brittney Galloway
+    <footer class="page-footer grey lighten-5">
+        <div class="footer-copyright">
+          <div class="container center-align teal-text text-lighten-2 flow-text">
+            © 2019 Brittney Galloway
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     <!-- SCIRPT JS FILE ------------------------------------------------------------------------>
     <script src="assets/links.js"></script>
   </body>
