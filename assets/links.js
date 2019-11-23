@@ -22,14 +22,14 @@ $(document).ready(function() {
 
   $("#trivia").wrap("<a href='triviaGame.html' </a>");
 
-  $("#gifs").wrap("<a href='gifTastic.html' </a>");
-  $("#liriApp").wrap(
-    "<a href='https://github.com/brittgalloway/liri-node-app' </a>"
-  );
+  // $("#gifs").wrap("<a href='gifTastic.html' </a>");
+  // $("#liriApp").wrap(
+  //   "<a href='https://github.com/brittgalloway/liri-node-app' </a>"
+  // );
   $("#bamazonApp").wrap(
-    "<a href='https://github.com/brittgalloway/bamazon' </a>"
+    "<a href='bamazon.html' </a>"
   );
   $("#friendFinder").wrap(
-    "<a href='https://friend-finder10-26.herokuapp.com/' </a>"
+    "<a href='friend.html' </a>"
   );
 });
