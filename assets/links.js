@@ -29,7 +29,10 @@ $(document).ready(function() {
   $("#bamazonApp").wrap(
     "<a href='bamazon.html' </a>"
   );
-  $("#friendFinder").wrap(
-    "<a href='friend.html' </a>"
+  // $("#friendFinder").wrap(
+  //   "<a href='friend.html' </a>"
+  // );
+  $("#tennis").wrap(
+    "<a href='tennis.html' </a>"
   );
 });

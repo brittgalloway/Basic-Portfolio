@@ -123,7 +123,7 @@ li {
   position: relative;
 }
 
-.space {
+.projects {
   position: absolute;
   text-align: center;
   font-size: 36px;
@@ -131,7 +131,7 @@ li {
   font-family: "Source Code Pro", monospace;
   text-shadow: 2px 2px #004d40;
   width: 100%;
-  margin-top: 37%;
+  margin-top: 32%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -139,86 +139,31 @@ li {
   position: relative;
 }
 
-.swiftly{
-  position: absolute;
-  text-align: center;
-  font-size: 36px;
-  color: #fff3e0;
-  font-family: "Source Code Pro", monospace;
-  text-shadow: 2px 2px #004d40;
-  width: 100%;
-  margin-top: 37%;
-  margin-left: auto;
-  margin-right: auto;
-}
 #collector {
   position: relative;
   width: 80%;
   margin: auto;
 }
 
-.collector {
-  position: absolute;
-  text-align: center;
-  font-size: 36px;
-  font-family: "Source Code Pro", monospace;
-  width: 100%;
-  margin-top: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  text-shadow: 2px 2px #004d40;
-}
 #trivia {
   position: relative;
   width: 80%;
   margin: auto;
 }
 
-.trivia {
-  position: absolute;
-  text-align: center;
-  font-size: 36px;
-  font-family: "Source Code Pro", monospace;
-  text-shadow: 2px 2px #004d40;
-  width: 100%;
-  margin-top: 35%;
-  margin-left: auto;
-  margin-right: auto;
-}
 #gifs {
   position: relative;
   width: 80%;
   margin: auto;
 }
 
-.gifs {
-  position: absolute;
-  text-align: center;
-  font-size: 36px;
-  text-shadow: 2px 2px #004d40;
-  font-family: "Source Code Pro", monospace;
-  width: 100%;
-  margin-top: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
 #liriApp {
   position: relative;
   width: 80%;
   margin: auto;
 }
 
-.liri {
-  position: absolute;
-  text-align: center;
-  font-size: 30px;
-  text-shadow: 2px 2px #004d40;
-  font-family: "Source Code Pro", monospace;
-  width: 100%;
-  margin-top: 35%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 #bamazonApp {
   position: relative;
 
@@ -226,18 +171,25 @@ li {
   margin: auto;
 }
 
-.bamazon {
+.titles {
   position: absolute;
   text-align: center;
   font-size: 30px;
   text-shadow: 2px 2px #004d40;
   font-family: "Source Code Pro", monospace;
   width: 100%;
-  margin-top: 35%;
+  margin-top: 30%;
   margin-left: auto;
   margin-right: auto;
 }
-#friendFinder {
+#tennis {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* #friendFinder {
   position: relative;
   width: 80%;
   margin: auto;
@@ -253,7 +205,7 @@ li {
   margin-top: 30%;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 #projectImg {
   margin-top: 7px;
 }
