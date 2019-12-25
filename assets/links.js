@@ -15,10 +15,10 @@ $(document).ready(function() {
   $(".sidenav").sidenav();
   // PORTFOLIO SCRIPT -----------------------------------------------------------
   $("#space").wrap("<a href='spaceChasers.html' </a>");
-  
+
   $("#swiftly").wrap("<a href='swiftly.html' </a>");
 
-  $("#collector").wrap("<a href='crystalCollect.html' </a>");
+  $("#collector").wrap("<a href='memoryGame.html' </a>");
 
   $("#trivia").wrap("<a href='triviaGame.html' </a>");
 
@@ -26,13 +26,9 @@ $(document).ready(function() {
   // $("#liriApp").wrap(
   //   "<a href='https://github.com/brittgalloway/liri-node-app' </a>"
   // );
-  $("#bamazonApp").wrap(
-    "<a href='bamazon.html' </a>"
-  );
+  $("#bamazonApp").wrap("<a href='bamazon.html' </a>");
   // $("#friendFinder").wrap(
   //   "<a href='friend.html' </a>"
   // );
-  $("#tennis").wrap(
-    "<a href='tennis.html' </a>"
-  );
+  $("#tennis").wrap("<a href='tennis.html' </a>");
 });

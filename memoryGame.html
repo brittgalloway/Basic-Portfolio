@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- JQUERY ------------------------------------------------------------ -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- GOOGLE FONTS---------------------------------------------------------- -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo:900|Gruppo|Source+Code+Pro:700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MOMENT--------------------------------------------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+    <!-- MATERIALIZE Compiled and minified CSS --------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- MATERIALIZE Compiled and minified JavaScript ----------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- CSS FILE---------------------------------------------------------------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Memory Game Info</title>
+  </head>
+  <body>
+    <header>
+      <nav class=" teal">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo hide-on-small-only"
+            >Brittney Galloway</a
+          >
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="about_materialize.html">About</a></li>
+            <li><a href="portfolio_materialize.html">Portfolio</a></li>
+            <li><a href="contact_materialize.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav red lighten-5 " id="mobile-demo">
+        <li><a class="teal-text text-lighten-2" href="index.html">Home</a></li>
+        <li>
+          <a class="teal-text text-lighten-2" href="about_materialize.html"
+            >About</a
+          >
+        </li>
+        <li>
+          <a class="teal-text text-lighten-2" href="portfolio_materialize.html"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a class="teal-text text-lighten-2" href="contact_materialize.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class=" grey lighten-5">
+      <div class="container">
+        <div class="row">
+          <h1 id="index" class="center-align teal-text text-lighten-2">
+            Memory Game - REACT App
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l7 ">
+            <div class="card-panel grey lighten-5">
+              <span class="teal-text "
+                ><ul>
+                  <li>
+                    <a
+                      href="https://github.com/brittgalloway/memory_game/tree/master"
+                      >Github</a
+                    >
+                    <a
+                      class="hide-on-small-only"
+                      href="https://github.com/brittgalloway/memory_game/tree/master"
+                      >:
+                      <br />https://github.com/brittgalloway/memory_game/tree/master</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://brittgalloway.github.io/memory_game/"
+                      >Live App</a
+                    >
+                    <a
+                      class="hide-on-small-only"
+                      href="https://brittgalloway.github.io/memory_game/"
+                      >: <br />https://brittgalloway.github.io/memory_game/</a
+                    >
+                  </li>
+                </ul>
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m6 l5">
+            <img
+              id="projectImg"
+              class="z-depth-1 responsive-img"
+              src="./assets/images/memory.PNG"
+              alt="Crystal Collector Screenshot"
+            />
+          </div>
+          <div class="row">
+            <div class="col s12 m3 l5 teal-text text-darken-3 ">
+              <li>
+                This is a game created with Create React App.<br />
+                The objective is to click each image exactly once.<br />
+                Every click shuffles the images.<br />
+                Once you click all of the images you win the game! An alert will
+                notify you of your victory<br />
+                If you lose, your highest score is recorded and the game
+                continues as usual.
+              </li>
+
+              <li>
+                Tools: REACT, Bulma UI Framework, SASS
+              </li>
+              <li>
+                Future Improvements: <br />
+                A modal pops up once the game is won with a relavent image and
+                message.
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer grey lighten-5">
+      <div class="footer-copyright">
+        <div class="container center-align teal-text text-lighten-2 flow-text">
+          © 2019 Brittney Galloway
+        </div>
+      </div>
+    </footer>
+    <!-- SCIRPT JS FILE ------------------------------------------------------------------------>
+    <script src="assets/links.js"></script>
+  </body>
+</html>
