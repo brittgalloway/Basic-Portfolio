@@ -17,6 +17,7 @@ $(document).ready(function() {
   $("#space").wrap("<a href='spaceChasers.html' </a>");
 
   $("#swiftly").wrap("<a href='swiftly.html' </a>");
+  $("#swaddle").wrap("<a href='swaddle.html' </a>");
 
   $("#collector").wrap("<a href='memoryGame.html' </a>");
 
